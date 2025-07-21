@@ -1,0 +1,13 @@
+# Configuration constants
+AUTO_COMMIT = False
+AUTO_OFFSET_RESET = "earliest"
+TIMEOUT_LISTENER = 1000  # 1 second
+MAX_RECORD = 1
+CONSUMER_RETRY = 3
+
+MAX_RETRY = 3
+RETRY_DELAY = 1
+MESSAGE_TIMEOUT = 10
+ACK = "all"
+RETRY_BACKOFF_MS = 100
+
